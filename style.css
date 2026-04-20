@@ -7571,4 +7571,96 @@ body {
 footer {
   margin-top: auto;
 }
+/* ================= PRIVACY POLICY CONTENT ================= */
+
+.section {
+    padding: 60px 0;
+    background-color: #f9fbff;
+}
+
+.section .container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Headings */
+.section h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #0b3d91;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-left: 4px solid #0b3d91;
+    padding-left: 10px;
+}
+
+/* Paragraphs */
+.section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+.section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.section ul li {
+    font-size: 15px;
+    color: #444;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 15px;
+}
+
+/* Custom bullet */
+.section ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    color: #0b3d91;
+    font-size: 12px;
+}
+
+/* Links */
+.section a {
+    color: #0b3d91;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* Card-like container */
+.section .container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 15px;
+    }
+
+    .section h2 {
+        font-size: 22px;
+    }
+
+    .section p,
+    .section ul li {
+        font-size: 14px;
+    }
+
+    .section .container {
+        padding: 20px;
+    }
+}
 
