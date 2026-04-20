@@ -1,7 +1,7 @@
 /* ============================================================
-   KREATAL MOCEAN - PROFESSIONAL STYLESHEET (Teal-Navy Theme)
+   TechSkilla - PROFESSIONAL STYLESHEET (Teal-Navy Theme)
    Version: 1.0.0
-   Author: Kreatal Mocean Development Team
+   Author: TechSkilla Development Team
    Primary Color: #1F3A5F
    Accent Color: #F4A623
    Font: Poppins
@@ -7572,28 +7572,24 @@ footer {
   margin-top: auto;
 }
 /* ================= PRIVACY POLICY CONTENT ================= */
-
 .section {
     padding: 60px 0;
     background-color: #f9fbff;
 }
-
 .section .container {
     max-width: 900px;
     margin: 0 auto;
 }
-
 /* Headings */
 .section h2 {
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     color: #0b3d91;
     margin-top: 30px;
     margin-bottom: 15px;
     border-left: 4px solid #0b3d91;
     padding-left: 10px;
 }
-
 /* Paragraphs */
 .section p {
     font-size: 16px;
@@ -7601,13 +7597,11 @@ footer {
     color: #333;
     margin-bottom: 15px;
 }
-
 /* Lists */
 .section ul {
     margin-left: 20px;
     margin-bottom: 20px;
 }
-
 .section ul li {
     font-size: 15px;
     color: #444;
