@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Primary Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- SEO Meta Tags -->
+    <title>Privacy Policy | Sanah International Private Limited</title>
+    <meta name="description" content="Read the Privacy Policy of Sanah International Private Limited. Learn how we collect, use, store, and protect your personal data when you use our website and programs.">
+    <meta name="keywords" content="privacy policy, data protection, Sanah International, TechSkilla, personal data, Bhagalpur, Bihar, India">
+    <meta name="author" content="Sanah International Private Limited">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://techskilla.com/privacy-policy.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://techskilla.com/privacy-policy.html">
+    <meta property="og:title" content="Privacy Policy | Sanah International Private Limited">
+    <meta property="og:description" content="Learn how Sanah International collects, uses, and protects your personal information.">
+    <meta property="og:site_name" content="Sanah International Private Limited">
+    <meta property="og:locale" content="en_IN">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="IN-BR">
+    <meta name="geo.placename" content="Bhagalpur">
+    <meta name="geo.position" content="25.2425;86.9842">
+    <meta name="ICBM" content="25.2425, 86.9842">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <meta name="theme-color" content="#0b3d91">
+
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* ============================================================
+           PRIVACY POLICY PAGE — CUSTOM STYLES
+           ============================================================ */
+
+        /* --- Page Hero --- */
+        .page-hero {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 60%, var(--primary-light) 100%);
+            padding: calc(var(--header-height) + 3rem) 0 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+        .page-hero-bg { position: absolute; inset: 0; pointer-events: none; }
+        .page-hero-overlay { position: absolute; inset: 0; background: rgba(11,61,145,0.15); }
+        .page-hero-shapes .shape {
+            position: absolute; border-radius: 50%;
+            opacity: 0.08; background: var(--white);
+        }
+        .shape-1 { width: 420px; height: 420px; top: -130px; right: -90px; }
+        .shape-2 { width: 260px; height: 260px; bottom: -90px; left: 4%; }
+        .shape-3 { width: 160px; height: 160px; top: 40%; left: 30%; }
+        .page-hero-content { position: relative; z-index: 2; }
+
+        /* Breadcrumb */
+        .breadcrumb { margin-bottom: 1.25rem; }
+        .breadcrumb-list { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+        .breadcrumb-item a {
+            color: rgba(255,255,255,.8); font-size: var(--font-size-sm);
+            display: flex; align-items: center; gap: .35rem;
+            transition: var(--transition-normal);
+        }
+        .breadcrumb-item a:hover { color: var(--accent-color); }
+        .breadcrumb-item.active { color: var(--white); font-size: var(--font-size-sm); font-weight: var(--font-medium); }
+        .breadcrumb-separator { color: rgba(255,255,255,.5); font-size: .65rem; }
+
+        .page-hero-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: var(--font-bold);
+            color: var(--white);
+            margin-bottom: 1rem; line-height: 1.2;
+        }
+        .page-hero-subtitle {
+            font-size: var(--font-size-lg);
+            color: rgba(255,255,255,.85);
+            max-width: 660px; line-height: 1.7; margin-bottom: 0;
+        }
+
+        /* Meta badges */
+        .policy-meta { display: flex; align-items: center; gap: .5rem; margin-top: 1.5rem; flex-wrap: wrap; }
+        .policy-badge {
+            display: inline-flex; align-items: center; gap: .4rem;
+            background: rgba(255,255,255,.15);
+            border: 1px solid rgba(255,255,255,.3);
+            color: var(--white); font-size: var(--font-size-sm); font-weight: var(--font-medium);
+            padding: .4rem 1rem; border-radius: var(--radius-full);
+            backdrop-filter: blur(4px);
+        }
+        .policy-badge i { color: var(--accent-color); }
+
+        /* --- At-a-Glance Summary Cards --- */
+        .privacy-summary {
+            padding: 3rem 0;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .privacy-summary-intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .privacy-summary-intro .section-subtitle {
+            display: inline-flex; align-items: center; gap: .5rem;
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            color: var(--primary-color); text-transform: uppercase;
+            letter-spacing: 1px; margin-bottom: .5rem;
+        }
+        .privacy-summary-intro h2 {
+            font-size: var(--font-size-2xl); font-weight: var(--font-bold);
+            color: var(--text-primary); margin-bottom: .5rem;
+        }
+        .privacy-summary-intro p {
+            font-size: var(--font-size-base); color: var(--text-secondary);
+            max-width: 580px; margin: 0 auto;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.1rem;
+        }
+        .summary-card {
+            background: var(--white);
+            border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-xl);
+            padding: 1.4rem 1.1rem;
+            text-align: center;
+            transition: var(--transition-normal);
+        }
+        .summary-card:hover {
+            border-color: var(--primary-color);
+            box-shadow: var(--shadow-primary);
+            transform: translateY(-3px);
+        }
+        .summary-icon {
+            width: 50px; height: 50px; border-radius: var(--radius-lg);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.2rem; margin: 0 auto .85rem;
+            color: var(--white);
+        }
+        .summary-icon.blue   { background: linear-gradient(135deg, var(--primary-color), var(--primary-light)); box-shadow: 0 4px 15px rgba(var(--primary-rgb),.3); }
+        .summary-icon.orange { background: var(--gradient-accent); box-shadow: var(--shadow-accent); }
+        .summary-icon.green  { background: linear-gradient(135deg, #10b981, #059669); box-shadow: 0 4px 15px rgba(16,185,129,.3); }
+        .summary-icon.purple { background: linear-gradient(135deg, #8b5cf6, #7c3aed); box-shadow: 0 4px 15px rgba(139,92,246,.3); }
+        .summary-icon.teal   { background: linear-gradient(135deg, #14b8a6, #0d9488); box-shadow: 0 4px 15px rgba(20,184,166,.3); }
+        .summary-icon.red    { background: linear-gradient(135deg, #ef4444, #dc2626); box-shadow: 0 4px 15px rgba(239,68,68,.3); }
+        .summary-card h4 {
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            color: var(--text-primary); margin-bottom: .35rem;
+        }
+        .summary-card p {
+            font-size: var(--font-size-xs); color: var(--text-muted);
+            line-height: 1.55; margin: 0;
+        }
+
+        /* --- Main Layout --- */
+        .policy-section { padding: 4rem 0; }
+        .policy-layout {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 3rem; align-items: start;
+        }
+
+        /* Policy Block */
+        .policy-block {
+            background: var(--white);
+            border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-2xl);
+            padding: 2.25rem; margin-bottom: 1.75rem;
+            transition: var(--transition-normal);
+            scroll-margin-top: 100px;
+        }
+        .policy-block:hover {
+            border-color: rgba(var(--primary-rgb),.3);
+            box-shadow: var(--shadow-md);
+        }
+        .policy-block-header {
+            display: flex; align-items: center; gap: 1rem;
+            margin-bottom: 1.5rem; padding-bottom: 1rem;
+            border-bottom: 2px solid var(--gray-100);
+        }
+        .policy-block-icon {
+            width: 52px; height: 52px; border-radius: var(--radius-xl);
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: var(--white);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.25rem; flex-shrink: 0;
+            box-shadow: 0 4px 15px rgba(var(--primary-rgb),.3);
+        }
+        .policy-block-icon.accent  { background: var(--gradient-accent); box-shadow: var(--shadow-accent); }
+        .policy-block-icon.success { background: linear-gradient(135deg,#10b981,#059669); box-shadow: 0 4px 15px rgba(16,185,129,.3); }
+        .policy-block-icon.warning { background: linear-gradient(135deg,#f59e0b,#d97706); box-shadow: 0 4px 15px rgba(245,158,11,.3); }
+        .policy-block-icon.danger  { background: linear-gradient(135deg,#ef4444,#dc2626); box-shadow: 0 4px 15px rgba(239,68,68,.3); }
+        .policy-block-icon.purple  { background: linear-gradient(135deg,#8b5cf6,#7c3aed); box-shadow: 0 4px 15px rgba(139,92,246,.3); }
+        .policy-block-icon.teal    { background: linear-gradient(135deg,#14b8a6,#0d9488); box-shadow: 0 4px 15px rgba(20,184,166,.3); }
+
+        .policy-block-title {
+            font-size: var(--font-size-xl); font-weight: var(--font-bold);
+            color: var(--text-primary); margin: 0;
+        }
+        .policy-block-num {
+            font-size: var(--font-size-xs); font-weight: var(--font-semibold);
+            color: var(--primary-color); text-transform: uppercase; letter-spacing: 1px;
+        }
+
+        .policy-text {
+            font-size: var(--font-size-base); color: var(--text-secondary);
+            line-height: 1.8; margin-bottom: 1rem;
+        }
+        .policy-text:last-child { margin-bottom: 0; }
+
+        /* Policy list */
+        .policy-list {
+            list-style: none; padding: 0; margin: 1rem 0;
+            display: flex; flex-direction: column; gap: .65rem;
+        }
+        .policy-list li {
+            display: flex; align-items: flex-start; gap: .6rem;
+            font-size: var(--font-size-base); color: var(--text-secondary); line-height: 1.65;
+        }
+        .policy-list li i { margin-top: .25rem; flex-shrink: 0; font-size: .85rem; }
+        .policy-list li i.fa-check-circle        { color: var(--success-color); }
+        .policy-list li i.fa-times-circle         { color: var(--error-color); }
+        .policy-list li i.fa-dot-circle           { color: var(--primary-color); }
+        .policy-list li i.fa-shield-alt           { color: var(--primary-color); }
+        .policy-list li i.fa-chevron-right        { color: var(--primary-color); font-size: .7rem; margin-top: .35rem; }
+
+        /* Sub-title */
+        .policy-sub-title {
+            font-size: var(--font-size-base); font-weight: var(--font-semibold);
+            color: var(--text-primary); margin: 1.25rem 0 .5rem;
+            display: flex; align-items: center; gap: .5rem;
+        }
+        .policy-sub-title i { color: var(--primary-color); font-size: .9rem; }
+
+        /* Data type cards */
+        .data-type-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1rem; margin: 1.25rem 0;
+        }
+        .data-type-card {
+            background: var(--bg-secondary);
+            border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-xl);
+            padding: 1.2rem;
+            transition: var(--transition-normal);
+        }
+        .data-type-card:hover { border-color: var(--primary-color); background: var(--bg-accent-soft); }
+        .data-type-card-header {
+            display: flex; align-items: center; gap: .6rem; margin-bottom: .65rem;
+        }
+        .data-type-card-header i {
+            width: 32px; height: 32px; border-radius: var(--radius-md);
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: var(--white); display: flex; align-items: center; justify-content: center;
+            font-size: .8rem; flex-shrink: 0;
+        }
+        .data-type-card-header span {
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            color: var(--text-primary);
+        }
+        .data-type-card p {
+            font-size: var(--font-size-xs); color: var(--text-muted);
+            line-height: 1.6; margin: 0;
+        }
+
+        /* Highlight / Info box */
+        .policy-highlight {
+            background: linear-gradient(135deg, rgba(var(--primary-rgb),.05), rgba(244,179,122,.08));
+            border: 1.5px solid rgba(var(--primary-rgb),.2);
+            border-radius: var(--radius-xl);
+            padding: 1.25rem 1.5rem; margin: 1.25rem 0;
+            display: flex; gap: .85rem; align-items: flex-start;
+        }
+        .policy-highlight i { color: var(--primary-color); font-size: 1.1rem; margin-top: .2rem; flex-shrink: 0; }
+        .policy-highlight p { font-size: var(--font-size-sm); color: var(--text-secondary); margin: 0; line-height: 1.7; }
+        .policy-highlight p strong { color: var(--text-primary); }
+
+        /* Warning box */
+        .policy-warning {
+            background: #fffbeb; border: 1.5px solid #fcd34d;
+            border-radius: var(--radius-xl);
+            padding: 1.1rem 1.4rem; margin: 1.25rem 0;
+            display: flex; gap: .75rem; align-items: flex-start;
+        }
+        .policy-warning i { color: #d97706; margin-top: .2rem; flex-shrink: 0; }
+        .policy-warning p { font-size: var(--font-size-sm); color: #78350f; margin: 0; line-height: 1.7; }
+
+        /* Success box */
+        .policy-success {
+            background: #ecfdf5; border: 1.5px solid #6ee7b7;
+            border-radius: var(--radius-xl);
+            padding: 1.1rem 1.4rem; margin: 1.25rem 0;
+            display: flex; gap: .75rem; align-items: flex-start;
+        }
+        .policy-success i { color: #059669; margin-top: .2rem; flex-shrink: 0; }
+        .policy-success p { font-size: var(--font-size-sm); color: #064e3b; margin: 0; line-height: 1.7; }
+
+        /* Rights cards */
+        .rights-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem; margin: 1.25rem 0;
+        }
+        .right-card {
+            background: var(--bg-secondary);
+            border-radius: var(--radius-xl);
+            border: 1.5px solid var(--gray-200);
+            padding: 1.25rem 1rem; text-align: center;
+            transition: var(--transition-normal);
+        }
+        .right-card:hover { border-color: var(--primary-color); transform: translateY(-2px); }
+        .right-card-icon {
+            width: 44px; height: 44px; border-radius: var(--radius-lg);
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: var(--white); display: flex; align-items: center; justify-content: center;
+            font-size: 1rem; margin: 0 auto .75rem;
+        }
+        .right-card h5 {
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            color: var(--text-primary); margin-bottom: .3rem;
+        }
+        .right-card p { font-size: var(--font-size-xs); color: var(--text-muted); margin: 0; line-height: 1.5; }
+
+        /* Cookie table */
+        .policy-table-wrap { overflow-x: auto; border-radius: var(--radius-lg); border: 1.5px solid var(--gray-200); margin: 1.25rem 0; }
+        .policy-table { width: 100%; border-collapse: collapse; font-size: var(--font-size-sm); }
+        .policy-table th {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: var(--white); padding: .85rem 1.1rem;
+            text-align: left; font-weight: var(--font-semibold); white-space: nowrap;
+        }
+        .policy-table td {
+            padding: .8rem 1.1rem; color: var(--text-secondary);
+            border-bottom: 1px solid var(--gray-100); vertical-align: middle;
+        }
+        .policy-table tr:last-child td { border-bottom: none; }
+        .policy-table tr:nth-child(even) td { background: var(--bg-secondary); }
+
+        .cookie-pill {
+            display: inline-flex; align-items: center; gap: .3rem;
+            padding: .2rem .65rem; border-radius: var(--radius-full);
+            font-size: var(--font-size-xs); font-weight: var(--font-semibold);
+        }
+        .pill-blue   { background: #dbeafe; color: #1e40af; }
+        .pill-green  { background: #d1fae5; color: #065f46; }
+        .pill-orange { background: #fef3c7; color: #92400e; }
+
+        /* --- Sidebar --- */
+        .policy-sidebar { position: sticky; top: 100px; }
+
+        .sidebar-toc {
+            background: var(--white); border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-2xl); overflow: hidden; margin-bottom: 1.5rem;
+        }
+        .sidebar-toc-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            padding: 1.1rem 1.4rem; display: flex; align-items: center; gap: .6rem;
+        }
+        .sidebar-toc-header i { color: var(--accent-color); }
+        .sidebar-toc-header h4 { color: var(--white); font-size: var(--font-size-base); margin: 0; }
+        .sidebar-toc-list { padding: .75rem 0; }
+        .toc-item {
+            display: flex; align-items: center; gap: .6rem;
+            padding: .55rem 1.4rem; font-size: var(--font-size-sm);
+            color: var(--text-secondary); text-decoration: none;
+            transition: var(--transition-normal); border-left: 3px solid transparent;
+        }
+        .toc-item:hover {
+            color: var(--primary-color); background: var(--bg-secondary);
+            border-left-color: var(--primary-color);
+        }
+        .toc-item i { font-size: .7rem; color: var(--primary-color); flex-shrink: 0; }
+
+        /* Trust badges sidebar card */
+        .sidebar-trust {
+            background: var(--white); border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-2xl); padding: 1.5rem;
+            margin-bottom: 1.5rem; text-align: center;
+        }
+        .sidebar-trust h4 {
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            color: var(--text-primary); margin-bottom: 1rem;
+        }
+        .trust-badges { display: flex; flex-direction: column; gap: .7rem; }
+        .trust-badge {
+            display: flex; align-items: center; gap: .65rem;
+            padding: .7rem .9rem; border-radius: var(--radius-lg);
+            background: var(--bg-secondary); border: 1px solid var(--gray-200);
+            text-align: left;
+        }
+        .trust-badge i { font-size: 1rem; flex-shrink: 0; }
+        .trust-badge i.green  { color: var(--success-color); }
+        .trust-badge i.blue   { color: var(--primary-color); }
+        .trust-badge i.orange { color: var(--accent-dark); }
+        .trust-badge span { font-size: var(--font-size-xs); color: var(--text-secondary); font-weight: var(--font-medium); }
+
+        /* Related policies */
+        .sidebar-related {
+            background: var(--white); border: 1.5px solid var(--gray-200);
+            border-radius: var(--radius-2xl); overflow: hidden; margin-bottom: 1.5rem;
+        }
+        .sidebar-related-header {
+            background: var(--bg-tertiary); padding: 1rem 1.4rem;
+            display: flex; align-items: center; gap: .6rem;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .sidebar-related-header i { color: var(--primary-color); }
+        .sidebar-related-header h4 { color: var(--text-primary); font-size: var(--font-size-sm); margin: 0; font-weight: var(--font-semibold); }
+        .related-link {
+            display: flex; align-items: center; gap: .65rem;
+            padding: .85rem 1.4rem; text-decoration: none;
+            font-size: var(--font-size-sm); color: var(--text-secondary);
+            border-bottom: 1px solid var(--gray-100);
+            transition: var(--transition-normal);
+        }
+        .related-link:last-child { border-bottom: none; }
+        .related-link:hover { color: var(--primary-color); background: var(--bg-secondary); padding-left: 1.75rem; }
+        .related-link i { color: var(--primary-color); font-size: .85rem; flex-shrink: 0; }
+
+        /* Contact card */
+        .sidebar-contact-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            border-radius: var(--radius-2xl); padding: 1.75rem; text-align: center;
+        }
+        .sidebar-contact-card .contact-icon {
+            width: 56px; height: 56px; border-radius: 50%;
+            background: rgba(255,255,255,.15);
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.4rem; margin: 0 auto 1rem; color: var(--accent-color);
+        }
+        .sidebar-contact-card h4 { color: var(--white); font-size: var(--font-size-lg); margin-bottom: .5rem; }
+        .sidebar-contact-card p { color: rgba(255,255,255,.8); font-size: var(--font-size-sm); margin-bottom: 1.25rem; }
+        .btn-contact-white {
+            display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+            background: var(--white); color: var(--primary-color);
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            padding: .65rem 1.4rem; border-radius: var(--radius-full);
+            text-decoration: none; transition: var(--transition-normal);
+            width: 100%; margin-bottom: .65rem;
+        }
+        .btn-contact-white:hover { background: var(--accent-color); color: var(--white); }
+        .btn-whatsapp {
+            display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+            background: #25D366; color: var(--white);
+            font-size: var(--font-size-sm); font-weight: var(--font-semibold);
+            padding: .65rem 1.4rem; border-radius: var(--radius-full);
+            text-decoration: none; transition: var(--transition-normal); width: 100%;
+        }
+        .btn-whatsapp:hover { background: #1ebe5d; }
+
+        /* --- CTA Banner --- */
+        .policy-cta-section {
+            padding: 4.5rem 0;
+            background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+            position: relative; overflow: hidden;
+        }
+        .policy-cta-section::before {
+            content: ''; position: absolute; top: -60px; right: -60px;
+            width: 280px; height: 280px; border-radius: 50%;
+            background: rgba(255,255,255,.05);
+        }
+        .policy-cta-section::after {
+            content: ''; position: absolute; bottom: -80px; left: -40px;
+            width: 200px; height: 200px; border-radius: 50%;
+            background: rgba(244,179,122,.08);
+        }
+        .policy-cta-inner { text-align: center; position: relative; z-index: 1; }
+        .policy-cta-inner h2 { color: var(--white); font-size: var(--font-size-3xl); margin-bottom: .75rem; }
+        .policy-cta-inner p { color: rgba(255,255,255,.85); font-size: var(--font-size-lg); max-width: 560px; margin: 0 auto 2rem; }
+        .cta-btn-group { display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap; }
+        .btn-white {
+            background: var(--white); color: var(--primary-color); font-weight: var(--font-semibold);
+            padding: .85rem 1.85rem; border-radius: var(--radius-full);
+            display: inline-flex; align-items: center; gap: .5rem;
+            text-decoration: none; transition: var(--transition-normal);
+        }
+        .btn-white:hover { background: var(--accent-color); color: var(--white); transform: translateY(-2px); }
+        .btn-outline-white {
+            background: transparent; color: var(--white); font-weight: var(--font-semibold);
+            padding: .85rem 1.85rem; border-radius: var(--radius-full);
+            border: 2px solid rgba(255,255,255,.6);
+            display: inline-flex; align-items: center; gap: .5rem;
+            text-decoration: none; transition: var(--transition-normal);
+        }
+        .btn-outline-white:hover { background: rgba(255,255,255,.15); border-color: var(--white); }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .policy-layout { grid-template-columns: 1fr; }
+            .policy-sidebar { position: static; }
+        }
+        @media (max-width: 768px) {
+            .policy-block { padding: 1.5rem; }
+            .summary-grid { grid-template-columns: repeat(2, 1fr); }
+            .data-type-grid { grid-template-columns: 1fr; }
+            .rights-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 480px) {
+            .summary-grid { grid-template-columns: 1fr 1fr; }
+            .rights-grid { grid-template-columns: 1fr 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== HEADER / NAVIGATION ========== -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-logo" aria-label="Sanah International Home">
+                    <img src="images/logo.png" alt="Sanah International Logo" class="logo-img">
+                    <div class="logo-text">
+                        <span class="logo-name">Sanah International</span>
+                        <span class="logo-tagline">Private Limited</span>
+                    </div>
+                </a>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link"><i class="fas fa-home"></i><span>Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link"><i class="fas fa-info-circle"></i><span>About</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="services.html" class="nav-link"><i class="fas fa-cogs"></i><span>Services</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="partner.html" class="nav-link"><i class="fas fa-handshake"></i><span>Partners</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="gallery.html" class="nav-link"><i class="fas fa-images"></i><span>Gallery</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link"><i class="fas fa-envelope"></i><span>Contact</span></a>
+                    </li>
+                    <li class="nav-item nav-cta-mobile">
+                        <a href="contact.html#apply" class="btn btn-primary btn-sm">
+                            <i class="fas fa-paper-plane"></i>Apply Now
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="contact.html#apply" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>Apply Now
+                    </a>
+                </div>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========== PAGE HERO ========== -->
+    <section class="page-hero" id="page-hero">
+        <div class="page-hero-bg">
+            <div class="page-hero-overlay"></div>
+            <div class="page-hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="page-hero-content" data-aos="fade-up">
+                <nav class="breadcrumb" aria-label="Breadcrumb">
+                    <ol class="breadcrumb-list">
+                        <li class="breadcrumb-item">
+                            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+                        </li>
+                        <li class="breadcrumb-separator"><i class="fas fa-chevron-right"></i></li>
+                        <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
+                    </ol>
+                </nav>
+
+                <h1 class="page-hero-title">Privacy Policy</h1>
+                <p class="page-hero-subtitle">
+                    Your privacy matters to us. This policy explains how we collect, use, protect, and share your personal information when you use our website and programs.
+                </p>
+
+                <div class="policy-meta">
+                    <span class="policy-badge"><i class="fas fa-calendar-check"></i> Last Updated: April 2025</span>
+                    <span class="policy-badge"><i class="fas fa-building"></i> CIN: U85100BR2023PTC061673</span>
+                    <span class="policy-badge"><i class="fas fa-lock"></i> DPDP Act 2023 Compliant</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== AT-A-GLANCE SUMMARY ========== -->
+    <section class="privacy-summary">
+        <div class="container">
+            <div class="privacy-summary-intro" data-aos="fade-up">
+                <span class="section-subtitle"><i class="fas fa-eye"></i> Quick Overview</span>
+                <h2>Privacy at a Glance</h2>
+                <p>Here is a simple summary of our key privacy practices before you read the full policy below.</p>
+            </div>
+            <div class="summary-grid" data-aos="fade-up" data-aos-delay="100">
+                <div class="summary-card">
+                    <div class="summary-icon blue"><i class="fas fa-database"></i></div>
+                    <h4>What We Collect</h4>
+                    <p>Name, email, phone, academic details, and payment info for program enrollment.</p>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon orange"><i class="fas fa-bullseye"></i></div>
+                    <h4>Why We Use It</h4>
+                    <p>To deliver programs, communicate updates, process payments, and improve services.</p>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon green"><i class="fas fa-share-alt"></i></div>
+                    <h4>Who We Share With</h4>
+                    <p>Only with program partners and mentors, strictly for facilitation. Never sold.</p>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon purple"><i class="fas fa-shield-alt"></i></div>
+                    <h4>How We Protect It</h4>
+                    <p>Industry-standard encryption and security measures to safeguard your data.</p>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon teal"><i class="fas fa-user-cog"></i></div>
+                    <h4>Your Rights</h4>
+                    <p>Access, correct, or request deletion of your personal data at any time.</p>
+                </div>
+                <div class="summary-card">
+                    <div class="summary-icon red"><i class="fas fa-cookie-bite"></i></div>
+                    <h4>Cookies</h4>
+                    <p>We use essential and analytics cookies to improve your browsing experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MAIN POLICY CONTENT ========== -->
+    <section class="policy-section">
+        <div class="container">
+            <div class="policy-layout">
+
+                <!-- LEFT: Content -->
+                <div class="policy-content">
+
+                    <!-- 01 Introduction -->
+                    <div class="policy-block" id="introduction" data-aos="fade-up">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon">
+                                <i class="fas fa-user-shield"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 01</div>
+                                <h2 class="policy-block-title">Introduction &amp; Scope</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            <strong>Sanah International Private Limited</strong> ("Company", "we", "us", or "our") is committed to protecting the privacy and personal data of every individual who interacts with our website <strong>techskilla.com</strong>, enrolls in our programs, or contacts us through any channel.
+                        </p>
+                        <p class="policy-text">
+                            This Privacy Policy ("Policy") describes what information we collect, how we use and share it, how long we retain it, and what rights you have over your personal data. It applies to all users of our website and participants in our programs, including students, parents, educational institutions, corporate partners, and NGO collaborators.
+                        </p>
+
+                        <div class="policy-highlight">
+                            <i class="fas fa-gavel"></i>
+                            <p><strong>Legal Compliance:</strong> This Policy is formulated in compliance with the <strong>Information Technology Act, 2000</strong>, the <strong>IT (Amendment) Act, 2008</strong>, the <strong>IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011</strong>, and the <strong>Digital Personal Data Protection Act, 2023</strong> of India.</p>
+                        </div>
+
+                        <p class="policy-text">
+                            By accessing our website or enrolling in any of our programs, you consent to the practices described in this Policy. If you do not agree, please discontinue use of our website and services.
+                        </p>
+                    </div>
+
+                    <!-- 02 Information We Collect -->
+                    <div class="policy-block" id="data-collected" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon accent">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 02</div>
+                                <h2 class="policy-block-title">Information We Collect</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">We collect personal information through various means including our website forms, program enrollment, payment processing, and direct communications. The types of data we collect include:</p>
+
+                        <div class="data-type-grid">
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-id-card"></i>
+                                    <span>Identity Data</span>
+                                </div>
+                                <p>Full name, date of birth, gender, photograph, and government-issued ID details where required for certification.</p>
+                            </div>
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-address-book"></i>
+                                    <span>Contact Data</span>
+                                </div>
+                                <p>Email address, mobile number, WhatsApp number, residential address, and city/state.</p>
+                            </div>
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Academic Data</span>
+                                </div>
+                                <p>College/university name, degree, course, year of study, enrollment number, and academic performance details.</p>
+                            </div>
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-credit-card"></i>
+                                    <span>Payment Data</span>
+                                </div>
+                                <p>Transaction ID, payment amount, payment method, and billing details. Card/banking data is handled by our payment gateway and not stored by us.</p>
+                            </div>
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-globe"></i>
+                                    <span>Technical Data</span>
+                                </div>
+                                <p>IP address, browser type and version, device type, operating system, time zone, cookies, and pages visited on our website.</p>
+                            </div>
+                            <div class="data-type-card">
+                                <div class="data-type-card-header">
+                                    <i class="fas fa-comments"></i>
+                                    <span>Communication Data</span>
+                                </div>
+                                <p>Messages, queries, feedback, reviews, and any content you submit through contact forms, emails, or WhatsApp.</p>
+                            </div>
+                        </div>
+
+                        <div class="policy-highlight">
+                            <i class="fas fa-info-circle"></i>
+                            <p><strong>Sensitive Personal Data:</strong> We do not ordinarily collect sensitive personal data such as financial information beyond what is necessary for payment processing, health/medical data, or biometric information. Where such data is exceptionally required, we will seek explicit written consent.</p>
+                        </div>
+                    </div>
+
+                    <!-- 03 How We Use Your Data -->
+                    <div class="policy-block" id="data-use" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon success">
+                                <i class="fas fa-bullseye"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 03</div>
+                                <h2 class="policy-block-title">How We Use Your Information</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">We use the personal information we collect for the following lawful purposes:</p>
+
+                        <p class="policy-sub-title"><i class="fas fa-tasks"></i> Program Delivery &amp; Administration</p>
+                        <ul class="policy-list">
+                            <li><i class="fas fa-check-circle"></i> Processing your enrollment, confirming registration, and managing your participation in programs.</li>
+                            <li><i class="fas fa-check-circle"></i> Assigning mentors, coordinating industry partners, and facilitating project and internship activities.</li>
+                            <li><i class="fas fa-check-circle"></i> Issuing certificates, internship letters, and other program credentials upon successful completion.</li>
+                            <li><i class="fas fa-check-circle"></i> Processing payments and maintaining financial records as required by law.</li>
+                        </ul>
+
+                        <p class="policy-sub-title"><i class="fas fa-envelope-open-text"></i> Communication</p>
+                        <ul class="policy-list">
+                            <li><i class="fas fa-check-circle"></i> Sending program updates, schedules, reminders, and important announcements via email, SMS, or WhatsApp.</li>
+                            <li><i class="fas fa-check-circle"></i> Responding to your inquiries, feedback, or support requests in a timely manner.</li>
+                            <li><i class="fas fa-check-circle"></i> Sending promotional content about new programs and events (you may opt out at any time).</li>
+                        </ul>
+
+                        <p class="policy-sub-title"><i class="fas fa-chart-line"></i> Improvement &amp; Analytics</p>
+                        <ul class="policy-list">
+                            <li><i class="fas fa-check-circle"></i> Analyzing website usage patterns to improve user experience and content quality.</li>
+                            <li><i class="fas fa-check-circle"></i> Conducting internal research to enhance program offerings and student outcomes.</li>
+                            <li><i class="fas fa-check-circle"></i> Monitoring and preventing fraudulent activity, security breaches, or misuse of our platform.</li>
+                        </ul>
+
+                        <p class="policy-sub-title"><i class="fas fa-balance-scale"></i> Legal &amp; Compliance</p>
+                        <ul class="policy-list">
+                            <li><i class="fas fa-check-circle"></i> Complying with applicable Indian laws, regulations, and court orders.</li>
+                            <li><i class="fas fa-check-circle"></i> Enforcing our Terms and Conditions, Refund Policy, and other agreements.</li>
+                            <li><i class="fas fa-check-circle"></i> Maintaining records as required by statutory or regulatory obligations.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 04 Sharing of Information -->
+                    <div class="policy-block" id="data-sharing" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon purple">
+                                <i class="fas fa-share-alt"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 04</div>
+                                <h2 class="policy-block-title">Sharing &amp; Disclosure of Information</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            We do not sell, rent, or trade your personal data. We may share your information only in the following limited circumstances:
+                        </p>
+
+                        <ul class="policy-list">
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>Program Partners &amp; Mentors:</strong> We share relevant participant data (name, contact, academic details) with our industry partners, NGOs, and assigned mentors strictly for the purpose of program delivery and coordination.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>Payment Processors:</strong> Payment data is shared with our authorized third-party payment gateway providers solely to process transactions. These providers are bound by their own privacy and security standards.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>Service Providers:</strong> We may engage trusted third-party service providers (e.g., cloud hosting, email platforms, SMS services) who process data on our behalf under strict confidentiality agreements.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>Legal Authorities:</strong> We may disclose your information to government agencies, law enforcement, or regulatory bodies when required by law, court order, or to protect our legal rights.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>Business Transfers:</strong> In the event of a merger, acquisition, or sale of assets, your data may be transferred to the successor entity, subject to the same privacy protections.</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-dot-circle"></i>
+                                <span><strong>With Your Consent:</strong> We may share your information in any other manner with your explicit prior consent.</span>
+                            </li>
+                        </ul>
+
+                        <div class="policy-success">
+                            <i class="fas fa-shield-alt"></i>
+                            <p><strong>Our Commitment:</strong> All third parties with whom we share your data are contractually obligated to use it solely for the specified purpose, maintain its confidentiality, and implement adequate security measures.</p>
+                        </div>
+                    </div>
+
+                    <!-- 05 Data Retention -->
+                    <div class="policy-block" id="data-retention" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon warning">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 05</div>
+                                <h2 class="policy-block-title">Data Retention</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            We retain your personal data only for as long as necessary to fulfill the purposes for which it was collected, including to satisfy legal, accounting, or reporting requirements.
+                        </p>
+
+                        <ul class="policy-list">
+                            <li><i class="fas fa-dot-circle"></i> <strong>Program Records:</strong> Enrollment data, certificates, and completion records are retained for a minimum of <strong>5 years</strong> from program completion to facilitate future verification requests.</li>
+                            <li><i class="fas fa-dot-circle"></i> <strong>Payment Records:</strong> Financial transaction data is retained for <strong>7 years</strong> as required under Indian accounting and tax laws.</li>
+                            <li><i class="fas fa-dot-circle"></i> <strong>Website Data &amp; Cookies:</strong> Technical and analytical data is retained for <strong>12 months</strong>, after which it is anonymized or deleted.</li>
+                            <li><i class="fas fa-dot-circle"></i> <strong>Communication Records:</strong> Support and inquiry records are retained for <strong>2 years</strong> from the date of last interaction.</li>
+                            <li><i class="fas fa-dot-circle"></i> <strong>Inactive Accounts:</strong> If you have not engaged with us for over 3 years and have no active enrollment, your personal data may be deleted upon request.</li>
+                        </ul>
+
+                        <div class="policy-highlight">
+                            <i class="fas fa-info-circle"></i>
+                            <p>When your data is no longer required, we will securely delete or anonymize it. If deletion is not immediately possible (e.g., because data is stored in backup archives), we will isolate your data and protect it from further use until deletion is feasible.</p>
+                        </div>
+                    </div>
+
+                    <!-- 06 Data Security -->
+                    <div class="policy-block" id="data-security" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 06</div>
+                                <h2 class="policy-block-title">Data Security</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            We take the security of your personal data seriously and implement appropriate technical and organizational measures to protect it against unauthorized access, alteration, disclosure, or destruction.
+                        </p>
+
+                        <ul class="policy-list">
+                            <li><i class="fas fa-shield-alt"></i> SSL/TLS encryption is used for all data transmitted between your browser and our website.</li>
+                            <li><i class="fas fa-shield-alt"></i> Access to personal data is restricted to authorized personnel on a need-to-know basis.</li>
+                            <li><i class="fas fa-shield-alt"></i> Payment transactions are processed through PCI-DSS compliant payment gateways.</li>
+                            <li><i class="fas fa-shield-alt"></i> Regular security audits and vulnerability assessments are conducted on our systems.</li>
+                            <li><i class="fas fa-shield-alt"></i> Staff are trained on data protection obligations and best practices.</li>
+                        </ul>
+
+                        <div class="policy-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p><strong>Important:</strong> While we implement robust security measures, no method of electronic transmission or storage is 100% secure. In the unlikely event of a data breach that affects your rights, we will notify you as required by applicable law within the prescribed timeframe.</p>
+                        </div>
+                    </div>
+
+                    <!-- 07 Cookies -->
+                    <div class="policy-block" id="cookies" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon danger">
+                                <i class="fas fa-cookie-bite"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 07</div>
+                                <h2 class="policy-block-title">Cookies &amp; Tracking Technologies</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            Our website uses cookies and similar tracking technologies to enhance your browsing experience, analyze website traffic, and understand how visitors interact with our content. A cookie is a small text file placed on your device when you visit our website.
+                        </p>
+
+                        <div class="policy-table-wrap">
+                            <table class="policy-table">
+                                <thead>
+                                    <tr>
+                                        <th>Cookie Type</th>
+                                        <th>Purpose</th>
+                                        <th>Duration</th>
+                                        <th>Category</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>Essential Cookies</strong></td>
+                                        <td>Enable core site functions, navigation, and security</td>
+                                        <td>Session</td>
+                                        <td><span class="cookie-pill pill-green"><i class="fas fa-check"></i> Required</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Preference Cookies</strong></td>
+                                        <td>Remember your settings and preferences for future visits</td>
+                                        <td>1 year</td>
+                                        <td><span class="cookie-pill pill-blue"><i class="fas fa-cog"></i> Functional</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Analytics Cookies</strong></td>
+                                        <td>Track page views, user behaviour, and performance metrics</td>
+                                        <td>12 months</td>
+                                        <td><span class="cookie-pill pill-orange"><i class="fas fa-chart-bar"></i> Analytics</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Marketing Cookies</strong></td>
+                                        <td>Deliver relevant program promotions and measure ad effectiveness</td>
+                                        <td>90 days</td>
+                                        <td><span class="cookie-pill pill-orange"><i class="fas fa-bullhorn"></i> Marketing</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <p class="policy-text">
+                            You can control and manage cookies through your browser settings. Note that disabling certain cookies may affect the functionality of our website. For more information on managing cookies, visit your browser's help documentation.
+                        </p>
+                    </div>
+
+                    <!-- 08 Your Rights -->
+                    <div class="policy-block" id="your-rights" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon teal">
+                                <i class="fas fa-user-cog"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 08</div>
+                                <h2 class="policy-block-title">Your Privacy Rights</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            Under applicable Indian data protection laws, including the Digital Personal Data Protection Act, 2023, you have the following rights with respect to your personal data:
+                        </p>
+
+                        <div class="rights-grid">
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-eye"></i></div>
+                                <h5>Right to Access</h5>
+                                <p>Request a copy of the personal data we hold about you.</p>
+                            </div>
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-edit"></i></div>
+                                <h5>Right to Correct</h5>
+                                <p>Ask us to update or correct inaccurate or incomplete data.</p>
+                            </div>
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-trash-alt"></i></div>
+                                <h5>Right to Erasure</h5>
+                                <p>Request deletion of your data where there is no legal obligation to retain it.</p>
+                            </div>
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-ban"></i></div>
+                                <h5>Right to Object</h5>
+                                <p>Object to processing of your data for direct marketing purposes.</p>
+                            </div>
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-download"></i></div>
+                                <h5>Right to Portability</h5>
+                                <p>Receive your data in a structured, machine-readable format.</p>
+                            </div>
+                            <div class="right-card">
+                                <div class="right-card-icon"><i class="fas fa-undo"></i></div>
+                                <h5>Right to Withdraw</h5>
+                                <p>Withdraw consent for data processing at any time without affecting prior processing.</p>
+                            </div>
+                        </div>
+
+                        <div class="policy-highlight">
+                            <i class="fas fa-info-circle"></i>
+                            <p>To exercise any of the above rights, please contact us at <a href="mailto:chandankhargaha21@gmail.com" style="color:var(--primary-color);font-weight:600;">chandankhargaha21@gmail.com</a> or call <a href="tel:+919350802001" style="color:var(--primary-color);font-weight:600;">+91 9350802001</a>. We will respond to your request within <strong>30 days</strong>. We may need to verify your identity before processing the request.</p>
+                        </div>
+                    </div>
+
+                    <!-- 09 Third-Party Links -->
+                    <div class="policy-block" id="third-party" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon accent">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 09</div>
+                                <h2 class="policy-block-title">Third-Party Links &amp; Services</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            Our website may contain links to external websites, social media platforms, or third-party services for your convenience and information. These may include:
+                        </p>
+
+                        <ul class="policy-list">
+                            <li><i class="fas fa-dot-circle"></i> Social media platforms (Facebook, Instagram, LinkedIn, Twitter, YouTube)</li>
+                            <li><i class="fas fa-dot-circle"></i> Partner organization websites</li>
+                            <li><i class="fas fa-dot-circle"></i> Payment gateway services</li>
+                            <li><i class="fas fa-dot-circle"></i> Google Maps for location/directions</li>
+                            <li><i class="fas fa-dot-circle"></i> WhatsApp for direct communication</li>
+                        </ul>
+
+                        <div class="policy-warning">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <p><strong>Please Note:</strong> We have no control over the content, privacy policies, or practices of any third-party websites. Clicking on external links is at your own risk and we strongly encourage you to read the privacy policy of any external site you visit.</p>
+                        </div>
+                    </div>
+
+                    <!-- 10 Children's Privacy -->
+                    <div class="policy-block" id="children" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 10</div>
+                                <h2 class="policy-block-title">Children's Privacy</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            Our programs are designed for students aged 16 and above. We do not knowingly collect personal data from children under the age of 16 without verified parental or guardian consent.
+                        </p>
+
+                        <ul class="policy-list">
+                            <li><i class="fas fa-dot-circle"></i> If a participant is under 18, a parent or legal guardian must provide consent at the time of enrollment.</li>
+                            <li><i class="fas fa-dot-circle"></i> Parents or guardians may contact us at any time to review, update, or request deletion of their child's personal information.</li>
+                            <li><i class="fas fa-dot-circle"></i> If we become aware that we have inadvertently collected data from a child under 16 without proper consent, we will take immediate steps to delete such information.</li>
+                        </ul>
+                    </div>
+
+                    <!-- 11 Changes to Policy -->
+                    <div class="policy-block" id="policy-changes" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon warning">
+                                <i class="fas fa-sync-alt"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 11</div>
+                                <h2 class="policy-block-title">Changes to This Privacy Policy</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or operational developments. When we make material changes, we will:
+                        </p>
+
+                        <ul class="policy-list">
+                            <li><i class="fas fa-check-circle"></i> Update the "Last Updated" date at the top of this page.</li>
+                            <li><i class="fas fa-check-circle"></i> Notify enrolled participants via email or WhatsApp of significant changes that affect how their data is used.</li>
+                            <li><i class="fas fa-check-circle"></i> Display a notice on our website homepage for a reasonable period following any material update.</li>
+                        </ul>
+
+                        <p class="policy-text">
+                            We encourage you to review this Policy periodically to stay informed about how we protect your information. Your continued use of our website or services after the effective date of any changes constitutes acceptance of the revised Policy.
+                        </p>
+                    </div>
+
+                    <!-- 12 Contact -->
+                    <div class="policy-block" id="contact-privacy" data-aos="fade-up" data-aos-delay="50">
+                        <div class="policy-block-header">
+                            <div class="policy-block-icon success">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div>
+                                <div class="policy-block-num">Section 12</div>
+                                <h2 class="policy-block-title">Contact Our Privacy Team</h2>
+                            </div>
+                        </div>
+
+                        <p class="policy-text">
+                            If you have any questions, concerns, or requests regarding this Privacy Policy or the personal data we hold about you, please contact us through any of the following channels:
+                        </p>
+
+                        <ul class="policy-list">
+                            <li>
+                                <i class="fas fa-building" style="color:var(--primary-color)"></i>
+                                <span><strong>Data Controller:</strong> Sanah International Private Limited</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt" style="color:var(--primary-color)"></i>
+                                <span><strong>Registered Office:</strong> 3LP/04, 1st Floor, Housing Board Colony, Barari, Bhagalpur, Bihar – 812003, India</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope" style="color:var(--primary-color)"></i>
+                                <span><strong>Email:</strong> <a href="mailto:chandankhargaha21@gmail.com" style="color:var(--primary-color)">chandankhargaha21@gmail.com</a></span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt" style="color:var(--primary-color)"></i>
+                                <span><strong>Phone:</strong> <a href="tel:+919350802001" style="color:var(--primary-color)">+91 9350802001</a></span>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp" style="color:#25D366"></i>
+                                <span><strong>WhatsApp:</strong> <a href="https://wa.me/919350802001" target="_blank" rel="noopener noreferrer" style="color:#25D366">Chat with us on WhatsApp</a></span>
+                            </li>
+                            <li>
+                                <i class="fas fa-clock" style="color:var(--primary-color)"></i>
+                                <span><strong>Response Time:</strong> We aim to respond to all privacy-related queries within <strong>7 working days</strong>.</span>
+                            </li>
+                        </ul>
+
+                        <div class="policy-success">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Your trust is our priority. We are committed to handling your personal data with care, transparency, and respect — always in line with applicable Indian data protection laws.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- END policy-content -->
+
+                <!-- RIGHT: Sidebar -->
+                <aside class="policy-sidebar" data-aos="fade-left">
+
+                    <!-- Table of Contents -->
+                    <div class="sidebar-toc">
+                        <div class="sidebar-toc-header">
+                            <i class="fas fa-list-ul"></i>
+                            <h4>Table of Contents</h4>
+                        </div>
+                        <nav class="sidebar-toc-list">
+                            <a href="#introduction"    class="toc-item"><i class="fas fa-chevron-right"></i> Introduction &amp; Scope</a>
+                            <a href="#data-collected"  class="toc-item"><i class="fas fa-chevron-right"></i> Information We Collect</a>
+                            <a href="#data-use"        class="toc-item"><i class="fas fa-chevron-right"></i> How We Use Your Data</a>
+                            <a href="#data-sharing"    class="toc-item"><i class="fas fa-chevron-right"></i> Sharing &amp; Disclosure</a>
+                            <a href="#data-retention"  class="toc-item"><i class="fas fa-chevron-right"></i> Data Retention</a>
+                            <a href="#data-security"   class="toc-item"><i class="fas fa-chevron-right"></i> Data Security</a>
+                            <a href="#cookies"         class="toc-item"><i class="fas fa-chevron-right"></i> Cookies &amp; Tracking</a>
+                            <a href="#your-rights"     class="toc-item"><i class="fas fa-chevron-right"></i> Your Privacy Rights</a>
+                            <a href="#third-party"     class="toc-item"><i class="fas fa-chevron-right"></i> Third-Party Links</a>
+                            <a href="#children"        class="toc-item"><i class="fas fa-chevron-right"></i> Children's Privacy</a>
+                            <a href="#policy-changes"  class="toc-item"><i class="fas fa-chevron-right"></i> Policy Changes</a>
+                            <a href="#contact-privacy" class="toc-item"><i class="fas fa-chevron-right"></i> Contact Us</a>
+                        </nav>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="sidebar-trust">
+                        <h4>🔒 Our Privacy Promise</h4>
+                        <div class="trust-badges">
+                            <div class="trust-badge">
+                                <i class="fas fa-ban green"></i>
+                                <span>We never sell your data</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-lock blue"></i>
+                                <span>SSL encrypted website</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-shield-alt green"></i>
+                                <span>DPDP Act 2023 compliant</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-eye-slash blue"></i>
+                                <span>Minimal data collection</span>
+                            </div>
+                            <div class="trust-badge">
+                                <i class="fas fa-user-check orange"></i>
+                                <span>You control your data</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Related Policies -->
+                    <div class="sidebar-related">
+                        <div class="sidebar-related-header">
+                            <i class="fas fa-file-alt"></i>
+                            <h4>Related Policies</h4>
+                        </div>
+                        <a href="terms-conditions.html" class="related-link">
+                            <i class="fas fa-file-contract"></i>
+                            Terms &amp; Conditions
+                        </a>
+                        <a href="refund-policy.html" class="related-link">
+                            <i class="fas fa-undo-alt"></i>
+                            Refund &amp; Cancellation
+                        </a>
+                        <a href="contact.html" class="related-link">
+                            <i class="fas fa-envelope"></i>
+                            Contact Us
+                        </a>
+                    </div>
+
+                    <!-- Contact Card -->
+                    <div class="sidebar-contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h4>Privacy Queries?</h4>
+                        <p>Have concerns about your data? Our team is ready to help.</p>
+                        <a href="mailto:chandankhargaha21@gmail.com" class="btn-contact-white">
+                            <i class="fas fa-envelope"></i>
+                            Email Us
+                        </a>
+                        <a href="https://wa.me/919350802001?text=Hello%20Sanah%20International!%20I%20have%20a%20privacy%20related%20query." target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+
+                </aside>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA SECTION ========== -->
+    <section class="policy-cta-section">
+        <div class="container">
+            <div class="policy-cta-inner" data-aos="fade-up">
+                <h2>Your Trust is Our Foundation</h2>
+                <p>We are committed to keeping your data safe. Explore our programs with confidence, knowing your privacy is protected.</p>
+                <div class="cta-btn-group">
+                    <a href="contact.html#apply" class="btn-white">
+                        <i class="fas fa-paper-plane"></i>
+                        Apply Now
+                    </a>
+                    <a href="contact.html" class="btn-outline-white">
+                        <i class="fas fa-envelope"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-about">
+                        <a href="index.html" class="footer-logo">
+                            <img src="images/logo.png" alt="Sanah International Logo">
+                            <div class="logo-text">
+                                <span class="logo-name">Sanah International</span>
+                                <span class="logo-tagline">Private Limited</span>
+                            </div>
+                        </a>
+                        <p class="footer-desc">A professional academic facilitation organization connecting students, colleges, industries, and NGOs through structured internships and skill training programs.</p>
+                        <div class="footer-social">
+                            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="services.html"><i class="fas fa-chevron-right"></i> Services</a></li>
+                            <li><a href="partner.html"><i class="fas fa-chevron-right"></i> Partners</a></li>
+                            <li><a href="gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                            <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                            <li><a href="contact.html#apply"><i class="fas fa-chevron-right"></i> Apply Now</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Our Services</h4>
+                        <ul class="footer-links">
+                            <li><a href="services.html#internship-programs"><i class="fas fa-chevron-right"></i> Internship Programs</a></li>
+                            <li><a href="services.html#skill-development"><i class="fas fa-chevron-right"></i> Skill Development</a></li>
+                            <li><a href="services.html#ngo-collaboration"><i class="fas fa-chevron-right"></i> NGO Collaboration</a></li>
+                            <li><a href="services.html#corporate-exposure"><i class="fas fa-chevron-right"></i> Corporate Exposure</a></li>
+                            <li><a href="services.html#research-programs"><i class="fas fa-chevron-right"></i> Research Programs</a></li>
+                            <li><a href="services.html#certification"><i class="fas fa-chevron-right"></i> Certification Courses</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Contact Us</h4>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>3LP/04, 1st Floor, Housing Board Colony, Barari, Bhagalpur, Bihar – 812003, India</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <span><a href="tel:+919350802001">+91 9350802001</a></span>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:chandankhargaha21@gmail.com">chandankhargaha21@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="https://wa.me/919350802001" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                            </li>
+                        </ul>
+                        <div class="footer-gst">
+                            <span><strong>CIN:</strong> U85100BR2023PTC061673</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p class="copyright">
+                        &copy; <span id="currentYear"></span> <strong>Sanah International Private Limited</strong>. All Rights Reserved.
+                    </p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy-policy.html" style="color:var(--accent-color)">Privacy Policy</a>
+                        <span class="separator">|</span>
+                        <a href="terms-conditions.html">Terms &amp; Conditions</a>
+                        <span class="separator">|</span>
+                        <a href="refund-policy.html">Refund Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ========== BACK TO TOP ========== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- ========== WHATSAPP FLOAT ========== -->
+    <a href="https://wa.me/919350802001?text=Hello%20Sanah%20International%20Private%20Limited%20!%20I%20want%20to%20know%20more%20about%20your%20programs."
+       class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <!-- ========== SCRIPTS ========== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    const headerHeight = document.getElementById('header').offsetHeight;
+                    const pos = target.getBoundingClientRect().top + window.scrollY - headerHeight - 20;
+                    window.scrollTo({ top: pos, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Active TOC on scroll
+        const sections = document.querySelectorAll('.policy-block[id]');
+        const tocLinks = document.querySelectorAll('.toc-item');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    tocLinks.forEach(link => {
+                        link.style.color = '';
+                        link.style.background = '';
+                        link.style.borderLeftColor = 'transparent';
+                    });
+                    const active = document.querySelector(`.toc-item[href="#${entry.target.id}"]`);
+                    if (active) {
+                        active.style.color = 'var(--primary-color)';
+                        active.style.background = 'var(--bg-secondary)';
+                        active.style.borderLeftColor = 'var(--primary-color)';
+                    }
+                }
+            });
+        }, { rootMargin: '-100px 0px -60% 0px' });
+
+        sections.forEach(s => observer.observe(s));
+    </script>
+
+</body>
+</html>
